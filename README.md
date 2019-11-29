@@ -1,7 +1,7 @@
 # cpp-iniparser
 [fredyw's](https://github.com/fredyw/cpp-iniparser) improved small INI parser in C++
 
-# Improvements
+## Improvements
 Read value by data type
 ```c++
 string v1 = config.Get("type", "str");
@@ -15,7 +15,7 @@ Assign boolean value in multiple ways
 config.AddOption("type", "bool", "true"); // true, yes, 1; false, no, 0
 ```
 
-# Examples
+## Examples
 ### config.ini
 ```
 [bar]
